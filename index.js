@@ -1,6 +1,6 @@
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("./json/data.json");
+const router = jsonServer.router("./tmp/data.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
