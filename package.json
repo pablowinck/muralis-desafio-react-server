@@ -1,0 +1,14 @@
+{
+  "name": "muralis-desafio-react-server",
+  "version": "1.0.0",
+  "description": "Server Mock para o desafio da Muralis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pablo Winck Winter",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
